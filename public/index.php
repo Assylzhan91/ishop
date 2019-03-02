@@ -6,6 +6,8 @@ require_once LIBS . "/functions.php";
 
 new \ishop\App();
 
+
+
 //debug(\ishop\App::$app->getProperties());
 
-throw new Exception('Страница не найдена',500);
+throw new Exception('Страница не найдена',404);

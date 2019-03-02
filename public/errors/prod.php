@@ -7,7 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ошибка</title>
 </head>
+
+</head>
 <body>
+
 <h1>Возникла ошибка</h1>
+
 </body>
 </html>

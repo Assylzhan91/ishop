@@ -2,8 +2,13 @@
 /**
  * Created by PhpStorm.
  * User: Асылжан
+<<<<<<< HEAD
  * Date: 02.03.2019
  * Time: 9:20
+=======
+ * Date: 01.03.2019
+ * Time: 16:06
+>>>>>>> 9f77eff333089e34e4fa8536d99745af035f8a6f
  */
 
 namespace ishop;
@@ -45,4 +50,6 @@ class ErrorHandler
 
         die;
     }
+
+
 }
