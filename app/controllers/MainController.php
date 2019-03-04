@@ -3,10 +3,14 @@
 namespace app\controllers;
 
 
-class MainController{
+use ishop\base\Controller;
+
+class MainController extends AppController
+{
 
     public function indexAction(){
-        echo __METHOD__;
+        debug($this->route);
+        debug($this->controller);
     }
 
 }

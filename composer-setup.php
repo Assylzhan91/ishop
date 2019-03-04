@@ -731,7 +731,7 @@ class Installer
     }
 
     /**
-     * The main install function
+     * The Main install function
      *
      * @param mixed $version Specific version to install, or false
      * @param string $channel Version channel to use
