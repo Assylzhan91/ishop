@@ -1,18 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Асылжан
- * Date: 01.03.2019
- * Time: 11:15
- */
 
 namespace ishop;
 
+class Registry {
 
-class Registry
-{
     use TSingletone;
-
 
     protected static $properties = [];
 
@@ -21,21 +13,14 @@ class Registry
     }
 
     public function getProperty($name){
-
-        if (isset(self::$properties[$name])){
-
+        if(isset(self::$properties[$name])){
             return self::$properties[$name];
-
         }
-
         return null;
     }
 
-
     public function getProperties(){
-
         return self::$properties;
-
     }
 
 }
